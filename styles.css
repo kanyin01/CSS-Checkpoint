@@ -1,0 +1,65 @@
+body{
+    font-family: 'roboto';
+}
+.myNav{
+    position: fixed;
+    width: 100%;
+    background-color: azure;
+    height: 80px;
+    line-height: 55px;
+}
+
+.myNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.myNav li {
+    display: inline;
+    padding: 5%;
+}
+
+.myNav li a{
+    text-decoration: none;
+    padding: 15px 18px;
+    color: black;
+}
+
+.myImg{
+    width: 100% ;
+}
+
+p{
+    background-color: beige;
+    padding: 4%;
+    text-align: center;
+}
+
+.home, .file{
+    margin: 20px;
+    padding: 16px;
+}
+
+.home > label, input{
+    display: block;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    height: 80px;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 10px;
+}
+
+hr{
+    height: 3px;
+    background-color: brown;
+}
+
+footer{
+    text-align: center;
+    font-weight: 1000;
+}
